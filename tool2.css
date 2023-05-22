@@ -1,0 +1,494 @@
+
+
+:root{
+    --md-dark-color: #1d1d1d;
+    --dark-color: #171717;
+    --light-dark-color: #292929;
+    --yellow-color: #d4aa11;
+}
+/*--------------------------------------------*/
+
+
+.roundImage {
+    border-radius: 50%;
+}
+
+
+
+.supButton {
+    width:       140px;
+    height:       50px;
+    /*margin-left:  10px;*/
+    margin-bottom: 5px;
+    margin-top:    5px;
+    border-radius: 4px;
+    font-size:    16px;
+    text-align: center;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.supButton:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+/*----------------------------------------------------------------*/
+
+
+#main_container{
+    width:   100%;
+    /*height: 500px;*/
+    /*
+    display: grid;
+    grid-template-columns: 95% 5%;
+    
+    border: 1px solid red; */
+};
+
+#page_node{
+    width:  100%;
+    height: 100%;
+}  
+
+#scroll_div {
+    width:  100%;
+    height: 700px;
+    overflow-y: auto;
+}
+#side_node{
+    /*border: 1px solid green;*/
+    /*width: 30px;*/
+    height: 100%;
+}
+.side_item{
+    background-color: gray;
+    color: white;
+}
+.side_item:hover{
+    background-color: lightgray;
+    color: black;
+}
+/*--------------------------------------------*/
+.dashboard_btn {
+    width:       140px;
+    height:       35px;
+    margin-left:   5px;
+    margin-bottom: 5px;
+    margin-top:    5px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size:    16px;
+    text-align: center;
+    /*display: inline-block;*/
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.dashboard_btn:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+
+.page_button {
+    width:        90px;
+    height:       30px;
+    margin-left:   5px;
+    margin-bottom: 5px;
+    margin-top:    5px;
+    border-radius: 4px;
+    font-size:    16px;
+    text-align: center;
+    /*display: inline-block;*/
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.page_button:hover {
+    background-color: lightblue;
+    color: black;
+}
+.prev_page_button{
+    width:       140px;
+    height:       35px;
+    margin-left:   5px;
+    margin-bottom: 5px;
+    margin-top:    5px;
+    border-radius: 4px;
+    font-size:    16px;
+    text-align: center;
+    /*display: inline-block;*/
+    background-color: blue;      /* var(--md-dark-color); */
+    color: white;
+    cursor: pointer;
+}
+.prev_page_button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+/*---------- selected on iNode ----------*/
+.notSelected {
+    border: 4px solid white;
+    cursor: pointer;
+}
+.selected {
+    border: 4px solid red;
+    cursor: pointer;
+}
+
+/*---------- tNode ----------*/
+.tNode {
+    width:     100%;
+    color:     black;
+    font-size: 16px;
+    /*----------------
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    */
+}
+/*---------- dNode ----------*/
+.dNode {
+    width:            208px;
+    text-align:       center;
+    display:          inline-block;
+    border:           1px solid black;
+    margin-left:      10px;
+    margin-bottom:    10px;
+    vertical-align:   top;
+    background-color: lightgrey;
+}
+.dNode2 {
+    width:            110px;
+    text-align:       center;
+    display:          inline-block;
+    border:           1px solid black;
+    margin-left:      10px;
+    margin-bottom:    10px;
+    vertical-align:   top;
+    background-color: lightgrey;
+}
+/*---------- tags and genres ----------*/
+.tags {
+    background-color: red;
+    color: white;
+    word-break: break-all;   /* allow unbreakable words to be broken */
+    word-wrap:  break-word;
+    /*----------------
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden; */
+}
+.genres {
+    background-color: green;
+    color: white;
+    word-break: break-all;   /* allow unbreakable words to be broken */
+    word-wrap:  break-word;
+    /*----------------
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden; */
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#page_title{
+    text-align: center;
+    font-size: 30px;
+}
+.btn_green{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    margin-right: 1px;
+    margin-top: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn_red{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    margin-right: 1px;
+    margin-top: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn_yellow{
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    margin-right: 1px;
+    margin-top: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.display_image_node {
+    width:            200px;
+    text-align:       center;
+    display:          inline-block;
+    border:           1px solid black;
+    margin-left:      10px;
+    margin-bottom:    10px;
+    vertical-align:   top;
+    background-color: lightgrey;
+}
+
+.devicesTitle{
+    font-size: 30px;
+    text-align: center;
+}
+
+#topPageTitleArea {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+ /* --------------- styles for iptv ---------------- */
+
+ .iptv_tNode {
+    width:      180px;
+    word-break: break-all;   /* allow unbreakable words to be broken */
+    word-wrap:  break-word;
+    }
+    .iptv_iNode {
+    width:      180px;
+    min-height: 100px;
+    cursor: pointer;
+    }
+    .iptv_selectedNode {
+    width:  174px;
+    border: 3px solid red;
+    cursor: pointer;
+    }
+    .iptv_viewItemNode {
+    width:          180px;
+    text-align:     center;
+    display:        inline-block;
+    border:         1px solid black;
+    margin-left:    5px;
+    margin-bottom:  5px;
+    vertical-align: top;
+    background-color: lightgrey;
+    }
+    #iptvSources {
+        height: 20px;
+        font-size: 16px;
+    }
+
+
+    /* --------------- styles for modals --------------- */
+
+    .modal {
+        /* Modal background */
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 3; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* The Close modal Button */
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    /* The Close modal Button hover*/
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+
+
+    /* --------------- styles for channel tags --------------- */
+
+    #channelArea {
+        height: 700px;
+        overflow-y: auto;
+    }
+
+    .viewNode {
+        display: inline-block;
+        vertical-align:   top;
+        margin-bottom:    4px;
+        margin-right:     4px;
+    }
+    .channelNode {
+        background-color: lightgrey;
+        color: black;
+        cursor: pointer;
+        font-family: "Arial";
+        font-size: 20px;
+
+        text-align: center;
+        width: 248px;
+        height: 120px;
+        border: 1px solid black;
+    }
+    .channelNode:hover {
+        background-color: blue;
+        color: white;
+    }
+    .channelTagText {
+        width: 250px;
+        height: 25px;
+        color: white;
+        font-size: 16px;
+        background-color: red;
+        text-align: center;
+        padding-top: 2px;
+    }
+
+    .channelNodeRed {
+        background-color: lightgrey;
+        color: black;
+        cursor: pointer;
+        font-family: "Arial";
+        font-size: 20px;
+
+        text-align: center;
+        width: 242px;
+        height: 112px;
+        border: 4px solid red;
+    }
+
+
+
+
+
+    /* --------------- styles for the EPG --------------- */
+
+    .devicesTitle {
+        text-align:  center;
+        font-family: "Arial";
+        font-size:   35px;
+    }
+
+    #tvGuideContainer{
+        /* width: calc(100% - 4px); */
+        width: 1000px;
+        /*width: 100%;*/
+        margin-right: 30px;
+    }
+
+    #tvContainer {
+        height:150px; 
+        width:100%; 
+
+        display:none;
+
+        background-color:lightgrey; 
+        overflow-y:auto; 
+        border:1px solid black;
+    }
+
+    #tvGuideText {
+        font-family: "Arial";
+        font-size: 25px;
+        vertical-align: top;
+    }
+
+    .tvgTitles {
+        text-align:  center;
+        font-family: "Arial";
+        font-size:   35px;
+    }
+
+    #rightTableContainer {
+        /*width: calc(100% - 200px);*/
+        width: 100%;
+        height:715px; 
+        border:1px solid black; 
+        overflow-y:auto;
+        overflow-x:auto;
+    }
+
+    #rightTable {
+        width:175000px;
+    }
+
+    table#rightTable .tdDiv {
+        font-size:20px; 
+        font-family: "Arial";
+        border:1px solid white; 
+        height:50px; 
+        display:inline-block; 
+        display:table-cell; 
+        vertical-align:middle;
+        cursor: pointer;
+        padding-left:5px; 
+    }
+    table#rightTable td {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+    table#rightTable th { 
+        position: sticky; 
+        left: 0; 
+        border-collapse:collapse;
+        border-spacing:0;
+        font-size:20px; 
+        width:200px; 
+        height:50px; 
+        text-align:center; 
+        background-color:gray; 
+        color:white;
+    }
+    .timeRow {
+        position: sticky; 
+        top: 0; 
+    }
+    th.timeRow {
+        position: sticky; 
+        top: 0; 
+        left: 0;
+        z-index: 2;
+        border:1px solid white;
+    }
+
+
+
+
+
+
+
+
